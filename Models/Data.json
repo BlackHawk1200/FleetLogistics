@@ -1,0 +1,22 @@
+﻿{
+  "FleetVehicleExtended": [
+    {
+      "Id": "1",
+      "FleetId": "1",
+      "VehicleRegNumber": "BD51 SMR",
+      "Description": "Test Vehicle 1"
+    },
+    {
+      "Id": "2",
+      "FleetId": "1",
+      "VehicleRegNumber": "C51 SMR",
+      "Description": "Test Vehicle 2"
+    },
+    {
+      "Id": "3",
+      "FleetId": "1",
+      "VehicleRegNumber": "DD51 SMR",
+      "Description": "Test Vehicle 3"
+    }
+  ]
+}

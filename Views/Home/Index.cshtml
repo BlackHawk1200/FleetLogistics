@@ -1,0 +1,44 @@
+﻿@model Fleet
+
+<div class="text-center">
+
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Fleet ID
+                </th>
+                <th>
+                    Fleet Description
+                </th>
+                <th>
+                    Fleet Vehicle
+                </th>
+            </tr>
+        </thead>
+
+        @foreach (FleetVehicleExtended fleetExt in Model.FleetVehicleExtended)
+        {
+            <tr>
+                <td>
+                    @fleetExt.Id
+                </td>
+                <td>
+                    @fleetExt.FleetId
+                </td>
+                <td>
+                    @fleetExt.description
+                </td>
+                <td>
+                    @fleetExt.VehicleRegNumber
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
